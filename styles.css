@@ -186,3 +186,31 @@ body {
     font-weight: bold;
     font-style: normal;
 }
+
+#cta-section {
+    padding: 100px 210px;
+}
+
+.cta-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 120px;
+    border-radius: 8px;
+    background-color: var(--blue);
+}
+
+.cta-description .heading {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--lighter);
+}
+
+.cta-description .subtitle {
+    font-size: 18px;
+    color: var(--light);
+}
+
+.cta-group .cta-btn {
+    border: 2px solid var(--lighter);
+}
