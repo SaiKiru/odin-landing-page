@@ -214,3 +214,14 @@ body {
 .cta-group .cta-btn {
     border: 2px solid var(--lighter);
 }
+
+#footer {
+    background-color: var(--dark);
+    padding: 38px;
+}
+
+#copyright-statement {
+    text-align: center;
+    font-size: 18px;
+    color: var(--lighter);
+}
